@@ -13,9 +13,5 @@ async function init() {
 
 
 module.exports = {
-  Resistance:require("./models/Resistance"),
-}; 
-
-module.exports = {
-  Cardio:require("./models/Cardio"),
+  Workout:require("./models/Workouts"),
 }; 

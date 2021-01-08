@@ -14,7 +14,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/", {
 
 const connection = mongoose.connection;
 //const db = require("models");
-const db = require("./models");
+const db = require("models");
 connection.on("connected", () => {
   console.log("Mongoose connected successfully");
 });
